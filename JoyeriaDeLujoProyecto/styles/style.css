@@ -78,6 +78,7 @@ font-weight: 700;
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
+    padding: 20px;
 }
 
 h1{
@@ -140,12 +141,12 @@ font-family: 'PT Sans', sans-serif;
 
 footer{
   /* background-color: rgba(162, 158, 158,0.5); */
-
+  /* border: 20px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 20px; 
   width: 100%;
   height: 100%;
 background-color: darkgray;
