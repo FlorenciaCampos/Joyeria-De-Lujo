@@ -131,6 +131,7 @@ font-family: 'PT Sans', sans-serif;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        
     }
     .entrada-blog {
        flex-basis: calc(25% - 1rem);  
