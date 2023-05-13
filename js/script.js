@@ -13,19 +13,17 @@ const ciudad = document.getElementById('ciudad');
 // Validar los campos del formulario
 form.addEventListener('submit', (e) => {
   
-var ok = true;
-
   // Validar nombre y apellido
   const nameRegex = /^[a-zA-Z ]{2,20}$/;
   if (!nameRegex.test(name.value)) {
     e.preventDefault();
     alert('Por favor, ingrese un nombre válido');
-    ok == false;
+    
   }
   if (!nameRegex.test(lastname.value)) {
     e.preventDefault();
     alert('Por favor, ingrese un apellido válido');
-    ok == false;
+    
   }
 
   // Validar correo electrónico
@@ -33,7 +31,7 @@ var ok = true;
   if (!emailRegex.test(email.value)) {
     e.preventDefault();
     alert('Por favor, ingrese un correo electrónico válido');
-    ok == false;
+    
   }
 
   // Validar dirección, número y código postal
@@ -41,19 +39,19 @@ var ok = true;
   if (!direccionRegex.test(direccion.value)) {
     e.preventDefault();
     alert('Por favor, ingrese una dirección válida');
-    ok == false;
+   
   }
-  const numRegex = /^[0-9]{7,14}$/;
+  const numRegex = /^[0-9]{1,14}$/;
   if (!numRegex.test(num.value)) {
     e.preventDefault();
-    alert('Por favor, ingrese un número');
-    ok == false;
+    alert('Por favor, ingrese un número de calle valido');
+    
   }
   const cpRegex = /^[0-9]{4}$/;
   if (!cpRegex.test(cp.value)) {
     e.preventDefault();
     alert('Por favor, ingrese un código postal válido');
-    ok == false;
+    
   }
 
   // Validar provincia y ciudad
@@ -61,15 +59,13 @@ var ok = true;
   if (!provinciaRegex.test(provincia.value)) {
     e.preventDefault();
     alert('Por favor, ingrese una provincia válida');
-    ok == false;
+    
   }
   if (!provinciaRegex.test(ciudad.value)) {
     e.preventDefault();
     alert('Por favor, ingrese una ciudad válida');
-    ok == false;
+   
   }
 
-  if (ok) {
-    alert('El envio se realizo correctamente');
-  }
+ 
 });
