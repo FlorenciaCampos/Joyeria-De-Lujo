@@ -123,10 +123,6 @@ margin:10px 0;
 font-family: 'PT Sans', sans-serif;
 }
 
-.logo {
-    visibility: hidden;
-}
-
 }
 
 @media (min-width:480px) {
