@@ -196,12 +196,12 @@ input::placeholder {
   
   }
   
-  /* @media screen and (min-width: 481px) {
+  @media screen and (min-width: 481px) {
     .doscolumnas {
       grid-template-columns: 48.7804878% 48.7804878%;
       grid-column-gap: 2.43902439%;
     }
-  } */
+  }
 
 
   @media (max-width:700px){
