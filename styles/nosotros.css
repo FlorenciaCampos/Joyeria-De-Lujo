@@ -114,6 +114,11 @@
         display: flex;
         justify-content: center;    
     }
+
+    .entrada-blog- h1 {
+      display: flex;
+      justify-content:left;    
+  }
     
     .entrada-blog img {
         display: flex;
