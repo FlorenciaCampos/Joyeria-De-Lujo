@@ -314,3 +314,9 @@ input::placeholder {
     color: yellow;
     transform: scale(1.2);
   }
+
+  #app {
+    color: rgb(0, 4, 255);
+    
+    padding-bottom: 25px;
+  }
